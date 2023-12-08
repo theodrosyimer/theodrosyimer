@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [cinevore (social network about cinema) using Typescript, Zod, NextJS, NextAuth, Drizzle-Orm, PlanetScale](https://github.com/theodrosyimer/cinevore)
 
-- 🌱 I’m currently learning **more advanced topics on JavaScript, Typescript, NodeJS, NextJS and React**
+- 🌱 I’m currently learning **advanced topics on JavaScript, Typescript, NodeJS, NextJS and React**
 
 - 💬 Ask me about **Javascript, Typescript, NodeJS, React, Shell Scripting**
 
