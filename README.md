@@ -7,7 +7,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theodrosyimer&label=Profile%20views&color=0e75b6&style=flat" alt="theodrosyimer" /> </p>
 
-- 🔭 I’m currently working on [cinevore (social network about cinema) using Typescript, Zod, NextJS, NextAuth, Drizzle-Orm, PlanetScale](https://github.com/theodrosyimer/cinevore)
+- 🔭 I’m currently working on [cinevore](https://github.com/theodrosyimer/cinevore)
 
 - 🌱 I’m currently learning **advanced topics on JavaScript, Typescript, NodeJS, NextJS and React**
 
