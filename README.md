@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Javascript, Typescript, NodeJS, React, Shell Scripting**
 
-- 📫 How to reach me **yimertheodros@gmail.com**
+- 📫 How to reach me **<yimertheodros@gmail.com>**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
