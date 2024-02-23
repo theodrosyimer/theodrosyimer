@@ -10,8 +10,6 @@
 
 - 💬 Ask me about **Javascript, Typescript, NodeJS, React, Shell Scripting**
 
-- 📫 How to reach me **<yimertheodros@gmail.com>**
-
 - ⚡ Fun fact: **I play guitar, bass and compose music since a long time**
 - ⚡ Another fun fact: **I love to automate a lot of repetitive tasks** 😄 (see some of my scripts [here](https://github.com/theodrosyimer/.dotfiles/tree/main/bin) and [here](https://github.com/theodrosyimer/.dotfiles/tree/main/zsh/custom))
 
