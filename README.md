@@ -37,7 +37,8 @@ I learn from and draw heavy inspiration from **Udi Dahan**, **Greg Young**,
 
 ```
 Event Model (events, commands, views, given/when/thens)
-→ Implementation (TDD, Hexagonal Architecture, Vertical Slices) → Refactor → Repeat
+→ Implementation (DDD, Modular Monolith, Hexagonal Architecture, Vertical Slices, TDD)
+→ Refactor → Repeat
 ```
 
 - **TDD** — every line of production code responds to a failing test
