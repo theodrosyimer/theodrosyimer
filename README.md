@@ -1,65 +1,133 @@
-# Hi there, I'm Theodros Yimer 👋🏿
+# Theodros Yimer
 
-## I'm a passionate developer from France
+**Software Developer & Relentless Learner** — Building domain-driven systems
+with TypeScript
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=theodrosyimer&label=Profile%20views&color=0e75b6&style=flat" alt="theodrosyimer" /> </p> -->
+I spent 20 years as a musician before becoming a developer. What carried over
+isn't technique — it's **the obsession.** The same drive that kept me practicing
+guitar for hours is what pulls me deep into domain-driven design, event
+modeling, and architecture patterns. When something clicks, I don't stop. I go
+all in.
 
-- 🔭 I’m currently working on [cinevore](https://github.com/theodrosyimer/cinevore)
+## What Drives My Work
 
-- 🌱 I’m currently learning more about **data structures, algorithms and design patterns**
+I'm deeply invested in understanding **why systems should be built a certain
+way**, not just how. I spend significant time studying and practicing
+domain-driven design, event modeling, and architecture patterns — and I apply
+them hands-on in everything I build.
 
-- 💬 Ask me about **Javascript, Typescript, NodeJS, React, Shell Scripting**
+**Principles I practice daily:**
 
-- ⚡ Fun fact: **I play guitar, bass and compose music since a long time**
-- ⚡ Another fun fact: **I love to automate a lot of repetitive tasks** 😄 (see some of my scripts [here](https://github.com/theodrosyimer/.dotfiles/tree/main/bin) and [here](https://github.com/theodrosyimer/.dotfiles/tree/main/zsh/custom))
+- **Domain-Driven Design** as the foundation — bounded contexts, ubiquitous
+  language, strategic decisions documented as ADRs
+- **Event Modeling** to make system behavior visible before writing a single
+  line of code — decide/evolve functions, event streams, read model projections
+- **Hexagonal Architecture** with ports & adapters — domain logic stays pure,
+  infrastructure is swappable, testable in milliseconds with fakes
+- **CQRS & Event Sourcing** where business complexity demands it — not
+  everywhere, but deliberately when the domain requires it
+- **Vertical Slice Architecture** inside bounded contexts — features as
+  self-contained slices, not horizontal layers that scatter behavior across the
+  codebase
 
-### Connect with me
+I learn from and draw heavy inspiration from **Udi Dahan**, **Greg Young**,
+**Martin Fowler**, **Dave Farley**, **Derek Comartin**, **Jimmy Bogard**,
+**James Shore**, **Robert C. Martin**, **Matteo Collina**, **James Snell**,
+**Martin Dilger**, **Michael Azerhad**, and **Anthony Cyrille**.
 
-<a href="https://linkedin.com/in/theodros-yimer" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="theodros-yimer" height="30" width="35" style="padding-inline-end: 1rem;" />
-</a>
+## How I Build
 
-### Languages and Tools
+```
+Event Model (events, commands, views, given/when/thens) → Implementation (TDD, Hexagonal Architecture, Vertical Slices) → Refactor → Repeat
+```
 
-<!-- <img align="left" alt="Visual Studio Code" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-inline-end: 1rem;" /> -->
-<img align="left" alt="HTML5" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-inline-end: 1rem;" />
-<img align="left" alt="CSS3" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-inline-end: 1rem;" />
-<img align="left" alt="Sass" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="35" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" alt="JavaScript" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" alt="React" width="35pxpx" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="nextjs" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="flutter" width="32" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="35" style="padding-inline-end: 1rem;" />
-<img align="left" alt="GitHub" width="35px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-dark-mode-only" style="padding-right:10px;" />
-<img align="left" alt="GitHub" width="35px" src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only" style="padding-right:10px;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="nginx" width="35px" style="padding-inline-end: 1rem;" />
-<img align="left" alt="Terminal" width="35px" src="./img/terminal-light.svg#gh-light-mode-only" />
-<img align="left" alt="Terminal" width="35px" src="./img/terminal-dark.svg#gh-dark-mode-only" />
+- **TDD** — every line of production code responds to a failing test
+- **Type-driven domain modeling** with TypeScript's type system; **Zod at
+  boundaries only** — API inputs, inter-module contracts, external data (DB
+  results, third-party APIs, environment variables, file/config parsing)
+- **Fake-driven testing** — in-memory repositories, sequential ID providers,
+  deterministic behavior, sub-millisecond test suites
+- **Trunk-based continuous delivery** — small commits, commit tests as
+  deployment gates, deployment ≠ release
 
-<!-- from docs:
-> Using [GitHub's new media feature](https://github.blog/changelog/2022-05-19-specify-theme-context-for-images-in-markdown-beta/) in HTML to specify whether to display images for light or dark themes. This is done using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature.
- -->
+## Agentic Engineering Workflows
 
-</br>
-</br>
-</br>
-</br>
+This is a major focus area for me. I design and build **skill systems, knowledge
+architectures, and command workflows for AI-assisted development** — making LLM
+agents deterministic, consistent, and reproducible instead of chaotic.
 
-<picture>
+What this looks like in practice:
+
+- **Four-tier knowledge architecture** — ADRs → conceptual docs → actionable
+  skill playbooks → always-on guardrails — so agents have the right context at
+  the right time
+- **Skill-based automation** — self-contained, composable skills with structured
+  references that agents read before acting, not after guessing
+- **Command orchestration over autonomous agents** — deterministic,
+  user-controlled, reviewable workflows where the human stays in the loop
+- **Evaluation frameworks** — hybrid structural assertions + LLM rubric scoring
+  to measure whether agent output actually meets the bar
+
+I believe this is one of the most valuable skills a developer can build right
+now — **the ability to make AI tools reliably useful, not just occasionally
+impressive, by leveraging knowledge we give them.**
+
+## Tech Stack
+
+**Language** — TypeScript
+
+**Backend** — Node.js · NestJS · Fastify · PostgreSQL · Drizzle ORM · BullMQ ·
+Redis · better-auth · Pino · OpenTelemetry
+
+**Frontend** — React · Expo · Next.js · TanStack Query · TanStack Db · Zustand ·
+Tailwind CSS v4 · UniWind
+
+**Design System** - Style Dictionary v5 · Paper - Tailwind Variants · Figma
+
+**Testing** — Vitest · Testing Library · Light My Request · Supertest ·
+Testcontainers · Playwright <!--· MSW -->
+
+**Infra & Tooling** — Turborepo · pnpm · Docker · GitHub Actions
+
+**Architecture** — DDD · CQRS · Event Sourcing · Event Modeling · Hexagonal
+Architecture · Modular Monolith · Vertical Slices
+
+## Beyond Code
+
+Before becoming a developer, I spent 20 years playing guitar and bass, composing
+music, and performing. I didn't leave that world behind — it shapes how I think
+about building software. Composition is architecture. Improvisation is iterative
+development. A good mix is separation of concerns.
+
+I'm always learning, always building, always looking for the deeper "why" behind
+the patterns.
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/theodros-yimer)
+
+---
+
+<!-- <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true&theme=dark&layout=compact"
+    srcset="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&theme=dark&hide_border=true&count_private=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&hide_border=true&count_private=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true&locale=en&layout=compact" alt="theodrosyimer"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats"/>
+</picture> -->
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true&theme=dark&layout=compact&hide_border=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true&layout=compact&hide_border=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=theodrosyimer&show_icons=true&locale=en&layout=compact&hide_border=true" alt="Top Languages"/>
 </picture>
