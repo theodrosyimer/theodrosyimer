@@ -1,4 +1,4 @@
-# Theodros Yimer
+# Hi there, I'm Theodros Yimer 👋🏿
 
 **Software Developer & Relentless Learner** — Building domain-driven systems
 with TypeScript
@@ -36,7 +36,8 @@ I learn from and draw heavy inspiration from **Udi Dahan**, **Greg Young**,
 ## How I Build
 
 ```
-Event Model (events, commands, views, given/when/thens) → Implementation (TDD, Hexagonal Architecture, Vertical Slices) → Refactor → Repeat
+Event Model (events, commands, views, given/when/thens)
+→ Implementation (TDD, Hexagonal Architecture, Vertical Slices) → Refactor → Repeat
 ```
 
 - **TDD** — every line of production code responds to a failing test
