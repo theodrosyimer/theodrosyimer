@@ -3,11 +3,9 @@
 **Software Developer & Relentless Learner** — Building domain-driven systems
 with TypeScript
 
-I spent 20 years as a musician before becoming a developer. What carried over
-isn't technique — it's **the obsession.** The same drive that kept me practicing
-guitar for hours is what pulls me deep into domain-driven design, event
-modeling, and architecture patterns. When something clicks, I don't stop. I go
-all in.
+I spent 20 years as a musician before becoming a developer. The same drive that
+kept me practicing guitar for hours is what pulls me deep into domain-driven
+design, event modeling, and architecture patterns.
 
 ## What Drives My Work
 
@@ -44,9 +42,9 @@ Event Model (events, commands, views, given/when/thens) → Implementation (TDD,
 - **TDD** — every line of production code responds to a failing test
 - **Type-driven domain modeling** with TypeScript's type system; **Zod at
   boundaries only** — API inputs, inter-module contracts, external data (DB
-  results, third-party APIs, environment variables, file/config parsing)
-- **Fake-driven testing** — in-memory repositories, sequential ID providers,
-  deterministic behavior, sub-millisecond test suites
+  results, third-party APIs, environment variables, file/config
+  parsing)<!-- - **Fake-driven testing** — in-memory repositories, sequential ID providers,
+    deterministic behavior, sub-millisecond test suites -->
 - **Trunk-based continuous delivery** — small commits, commit tests as
   deployment gates, deployment ≠ release
 
