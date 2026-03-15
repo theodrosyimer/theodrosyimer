@@ -42,11 +42,13 @@ Event Model (events, commands, views, given/when/thens)
 ```
 
 - **TDD** — every line of production code responds to a failing test
-- **Type-driven domain modeling** with TypeScript's type system; **Zod at
-  boundaries only** — API inputs, inter-module contracts, external data (DB
-  results, third-party APIs, environment variables, file/config
-  parsing)<!-- - **Fake-driven testing** — in-memory repositories, sequential ID providers,
-    deterministic behavior, sub-millisecond test suites -->
+- **Type-driven domain modeling** with TypeScript's type system; **Validation
+  with Zod at boundaries only** — API inputs, inter-module contracts, external
+  data (DB results, third-party APIs, environment variables, file/config
+  parsing)
+- **Sociable testing** — acceptance tests at the use case boundary with real
+  domain services and entities; ultra-light fakes for infrastructure ports only
+  — deterministic, sub-millisecond test suites
 - **Trunk-based continuous delivery** — small commits, commit tests as
   deployment gates, deployment ≠ release
 
