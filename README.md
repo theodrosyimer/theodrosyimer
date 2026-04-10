@@ -29,8 +29,8 @@ them hands-on in everything I build.
 - **CQRS & Event Sourcing** where business complexity demands it — replay value
   as the adoption criterion, not dogma
 
-I learn from and draw heavy inspiration from **James Shore**, **Martin Fowler**,
-**Udi Dahan**, **Dave Farley**, **Jimmy Bogard**, **Greg Young**, **Derek
+I learn from and draw heavy inspiration from **Martin Fowler**, **Udi Dahan**,
+**Dave Farley**, **Jimmy Bogard**,**James Shore**, **Greg Young**, **Derek
 Comartin**, **Robert C. Martin**, **Michael Azerhad**, **Anthony Cyrille**,
 **Matteo Collina**, **James Snell**, **Martin Dilger**.
 
@@ -51,8 +51,21 @@ Event Model (events, commands, views, given/when/thens)
   approach) — deterministic, sub-millisecond test suites
 - **Trunk-based continuous delivery** — small commits, commit tests as
   deployment gates, deployment ≠ release
-- **GDPR-by-design** — Forgettable Payloads, Crypto Shredding, PII kept out of
-  event streams from day one
+
+## Active Side Projects
+
+- **better-date** — Composable, Temporal-native date utilities that solve
+  problems wrong or impossible to implement with `Date` — business hours, fiscal
+  quarters, timezone-aware scheduling, duration balancing, and constraint-based
+  time logic
+- **gdpr-decision-matrix** — Interactive tool + Claude Code agent for choosing
+  GDPR erasure patterns in event-sourced TypeScript apps — weighted scoring
+  across 5 patterns, per-module characteristic assessment, conflict detection,
+  and ADR export
+- **ty CLI** — Custom scaffolding and code generation tool built on a composable
+  six-stage idempotent pipeline
+- **ArchViz** — Interactive architecture visualization tool evolving toward a
+  generator-of-generators pattern
 
 ## Agentic Engineering Workflows
 
@@ -74,22 +87,9 @@ What this looks like in practice:
 - **Generator-of-generators** — building tools that produce scaffolding/codegen
   tools, with composable idempotent pipeline stages
 
-I believe this is one of the most valuable skills a developer can build right
-now — **the ability to make AI tools reliably useful, not just occasionally
-impressive, by leveraging the knowledge we give them.**
-
-## Active Side Projects
-
-- **Agentic Dev Tooling** — Skill systems, knowledge architectures, evaluation
-  frameworks, and command workflows for deterministic AI-assisted development
-- **ty CLI** — Custom scaffolding and code generation tool built on a composable
-  six-stage idempotent pipeline
-- **ArchViz** — Interactive architecture visualization tool evolving toward a
-  generator-of-generators pattern
-- **better-date** — Composable, Temporal-native date utilities that solve
-  problems wrong or impossible to implement with `Date` — business hours, fiscal
-  quarters, timezone-aware scheduling, duration balancing, and constraint-based
-  time logic
+I believe the combination of **deep architectural knowledge** and **the ability
+to encode it into reliable AI workflows** is what separates developers who ship
+lasting systems from those chasing tools.
 
 ## Tech Stack
 
