@@ -21,17 +21,18 @@ them hands-on in everything I build.
 - **Event Modeling** to make system behavior visible before writing a single
   line of code — decide/evolve functions, event streams, read model projections
 - **Hexagonal Architecture** with ports & adapters — domain logic stays pure,
-  infrastructure is swappable, testable in milliseconds with fakes
-- **CQRS & Event Sourcing** where business complexity demands it — not
-  everywhere, but deliberately when the domain requires it
+  infrastructure is swappable, use cases testable in milliseconds with
+  ultra-light fakes
 - **Vertical Slice Architecture** inside bounded contexts — features as
   self-contained slices, not horizontal layers that scatter behavior across the
   codebase
+- **CQRS & Event Sourcing** where business complexity demands it — replay value
+  as the adoption criterion, not dogma
 
-I learn from and draw heavy inspiration from **Udi Dahan**, **Greg Young**,
-**Martin Fowler**, **Dave Farley**, **Derek Comartin**, **Jimmy Bogard**,
-**James Shore**, **Robert C. Martin**, **Matteo Collina**, **James Snell**,
-**Martin Dilger**, **Michael Azerhad**, and **Anthony Cyrille**.
+I learn from and draw heavy inspiration from **James Shore**, **Martin Fowler**,
+**Udi Dahan**, **Dave Farley**, **Jimmy Bogard**, **Greg Young**, **Derek
+Comartin**, **Robert C. Martin**, **Michael Azerhad**, **Anthony Cyrille**,
+**Matteo Collina**, **James Snell**, **Martin Dilger**.
 
 ## How I Build
 
@@ -42,19 +43,20 @@ Event Model (events, commands, views, given/when/thens)
 ```
 
 - **TDD** — every line of production code responds to a failing test
-- **Type-driven domain modeling** with TypeScript's type system; **Validation
-  with Zod at boundaries only** — API inputs, inter-module contracts, external
-  data (DB results, third-party APIs, environment variables, file/config
-  parsing)
+- **Type-driven domain modeling** with TypeScript's type system — discriminated
+  unions, ADT state machines, null-free domain layers; **Zod at boundaries
+  only**
 - **Sociable testing** — acceptance tests at the use case boundary with real
-  domain services and entities; ultra-light fakes for infrastructure ports only
-  — deterministic, sub-millisecond test suites
+  domain services; ultra-light fakes for infrastructure ports (Azerhad/WealCome
+  approach) — deterministic, sub-millisecond test suites
 - **Trunk-based continuous delivery** — small commits, commit tests as
   deployment gates, deployment ≠ release
+- **GDPR-by-design** — Forgettable Payloads, Crypto Shredding, PII kept out of
+  event streams from day one
 
 ## Agentic Engineering Workflows
 
-This is a major focus area for me. I design and build **skill systems, knowledge
+This is a major focus area. I design and build **skill systems, knowledge
 architectures, and command workflows for AI-assisted development** — making LLM
 agents deterministic, consistent, and reproducible instead of chaotic.
 
@@ -69,25 +71,42 @@ What this looks like in practice:
   user-controlled, reviewable workflows where the human stays in the loop
 - **Evaluation frameworks** — hybrid structural assertions + LLM rubric scoring
   to measure whether agent output actually meets the bar
+- **Generator-of-generators** — building tools that produce scaffolding/codegen
+  tools, with composable idempotent pipeline stages
 
 I believe this is one of the most valuable skills a developer can build right
 now — **the ability to make AI tools reliably useful, not just occasionally
-impressive, by leveraging knowledge we give them.**
+impressive, by leveraging the knowledge we give them.**
+
+## Active Side Projects
+
+- **Agentic Dev Tooling** — Skill systems, knowledge architectures, evaluation
+  frameworks, and command workflows for deterministic AI-assisted development
+- **ty CLI** — Custom scaffolding and code generation tool built on a composable
+  six-stage idempotent pipeline
+- **ArchViz** — Interactive architecture visualization tool evolving toward a
+  generator-of-generators pattern
+- **better-date** — Composable, Temporal-native date utilities that solve
+  problems wrong or impossible to implement with `Date` — business hours, fiscal
+  quarters, timezone-aware scheduling, duration balancing, and constraint-based
+  time logic
 
 ## Tech Stack
 
-**Language** — TypeScript
+**Language** — TypeScript (strict mode)
 
-**Backend** — Node.js · NestJS · Fastify · PostgreSQL · Drizzle ORM · BullMQ ·
-Redis · better-auth · Pino · OpenTelemetry
+**Backend** — Node.js · NestJS · Fastify · PostgreSQL · Drizzle ORM · Emmett ·
+BullMQ · Redis · better-auth · Pino · OpenTelemetry · Sentry
 
-**Frontend** — React · Expo · Next.js · TanStack Query · TanStack Db · Zustand ·
-Tailwind CSS v4 · UniWind
+**Frontend** — React · Expo · React Native · TanStack Query · TanStack DB ·
+Zustand · Tailwind CSS v4 · UniWind
 
-**Design System** - Style Dictionary v5 · Paper - Tailwind Variants · Figma
+**Design System** — Style Dictionary v5 · Tailwind Variants · Figma
 
-**Testing** — Vitest · Testing Library · Light My Request · Supertest ·
-Testcontainers · Playwright <!--· MSW -->
+**Testing** — Vitest · Testing Library · Supertest · Testcontainers · Playwright
+· ArchUnitTS
+
+**Observability** — OpenTelemetry · Pino · Grafana · Prometheus · Tempo · Sentry
 
 **Infra & Tooling** — Turborepo · pnpm · Docker · GitHub Actions
 
@@ -109,18 +128,6 @@ the patterns.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/theodros-yimer)
 
 ---
-
-<!-- <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&theme=dark&hide_border=true&count_private=true"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&hide_border=true&count_private=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=theodrosyimer&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats"/>
-</picture> -->
 
 <picture>
   <source
