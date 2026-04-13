@@ -93,13 +93,13 @@ lasting systems from those chasing tools.
 
 ## Tech Stack
 
-**Language** — TypeScript (strict mode)
+**Language** — TypeScript
 
 **Backend** — Node.js · NestJS · Fastify · PostgreSQL · Drizzle ORM · Emmett ·
 BullMQ · Redis · better-auth · Pino · OpenTelemetry · Sentry
 
-**Frontend** — React · Expo · React Native · TanStack Query · TanStack DB ·
-Zustand · Tailwind CSS v4 · UniWind
+**Frontend** — React · Expo · Next.js · Tanstack Start · TanStack Query ·
+TanStack DB · Zustand · Tailwind CSS v4 · UniWind
 
 **Design System** — Style Dictionary v5 · Tailwind Variants · Figma
 
@@ -108,10 +108,10 @@ Zustand · Tailwind CSS v4 · UniWind
 
 **Observability** — OpenTelemetry · Pino · Grafana · Prometheus · Tempo · Sentry
 
-**Infra & Tooling** — Turborepo · pnpm · Docker · GitHub Actions
+**Infra & Tooling** — Turborepo · pnpm · Docker · GitHub Actions · Ansible
 
-**Architecture** — DDD · CQRS · Event Sourcing · Event Modeling · Hexagonal
-Architecture · Modular Monolith · Vertical Slices
+**Architecture** — Event Modeling · DDD · Modular Monolith · Hexagonal
+Architecture · Vertical Slices · CQRS · Event Sourcing
 
 ## Beyond Code
 
